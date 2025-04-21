@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MessageStorage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Message xsi:type="Email">
+    <Sender>bobr@mail.ru</Sender>
+    <Recipient>crocodil@mail.ru</Recipient>
+    <Subject>Hello!</Subject>
+  </Message>
+  <Message xsi:type="Letter">
+    <SenderAddress>Staropupunski 12</SenderAddress>
+    <RecipientAddress>Pushkina 120</RecipientAddress>
+    <Content>This is a letter.</Content>
+  </Message>
+  <Message xsi:type="ElectronicMessage">
+    <Content>This is an electronic message.</Content>
+  </Message>
+</MessageStorage>
